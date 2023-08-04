@@ -1,8 +1,0 @@
-img
-{
-    height: 100vh;
-    -webkit-mask-image: url("/images/shape.svg");
-    -webkit-mask-size: contain;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: top center;
-}
