@@ -14,9 +14,34 @@ h1 {
   margin-left:15px;
 }
 */
+.header {
+  background-color: #6056e6;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #2dd327;
+}
+
+.flex-container {
+  display: flex;
+  align-content:end;
+  background-color: #c8e9e7;
+  padding: 10px;
+}
+
+.flex-container > div {
+  background-color: #6056e6;
+  margin: 10px;
+  padding: 5px;
+  font-size: 25px;
+}
 
 .img-size {
-  width:230px;
+  width:200px;
   height:450px;
 }
 
@@ -33,6 +58,12 @@ h1 {
   clear: both;
 }
 
+.copyright {
+  text-align: center;
+  padding: 1rem;
+  background-color: #606460;
+  color: #ffffff;
+}
 
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
